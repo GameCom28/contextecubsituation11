@@ -1,4 +1,15 @@
-﻿# Récupération de la date de l'audit
+﻿#========================================================================
+#NAME: 
+#AUTHOR: GameCom28
+#DATE: 11/04/2023
+#
+#VERSION 1.0
+#COMMENTS: Vérifie l'état des plage DHCP
+#
+#Requires -Version 2.0
+#========================================================================
+
+# Récupération de la date de l'audit
 $dateAudit = Get-Date
 
 # Création du fichier de sortie
